@@ -1,3 +1,24 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
+
+
 > *Github for version control & audit*        
 > -- Pyromancer
 
@@ -270,4 +291,43 @@ So:
 
 Would you like me to draft a **one-page internal memo** that frames this as a *“Managerial Review Calibration Initiative”* (language suited for UN HR / oversight tone), with these concrete actions and audit rationale?
 
-# F
+Looking at section **F**, it appears to be incomplete (just the header "# F" with no content following it).
+
+Given the document's arc, here's what **F** might logically cover to complete the framework:
+
+---
+
+# F 
+
+> *Field Implementation & Iteration*           
+> -- Claude
+
+Should include:
+
+1. **Pilot timeline** (2-4 week experiment design)
+   - Week 1: Instrument the approval pipeline
+   - Week 2-3: Collect baseline data
+   - Week 4: Run one experiment (rotation or blind re-review)
+
+2. **Stakeholder communication plan**
+   - How to brief senior management without triggering defensiveness
+   - How to protect the conscientious manager during rollout
+   - Language for framing this as "audit readiness" or "quality calibration"
+
+3. **Iteration protocol**
+   - Decision rules: at what threshold of $\varepsilon_t$ do you intervene?
+   - Feedback loops: monthly check-ins to adjust metrics
+   - Exit criteria: when has the system stabilized?
+
+4. **Succession planning**
+   - How to train new managers using this framework
+   - Codifying the "good manager" pattern as institutional knowledge
+
+---
+
+Alternatively, **F** could be **"Frequently Anticipated Objections"** — preemptively addressing pushback like:
+- "This feels like surveillance" → reframe as transparency
+- "We don't have time for this" → show time saved by reducing rework
+- "Metrics don't capture soft skills" → combine quant + qual data
+
+Which direction feels more useful for your UN context?
